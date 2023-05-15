@@ -59,7 +59,7 @@ def person_split(whole_data, train_names, valid_names, test_names):
 
 
 if __name__ == "__main__":
-    data = read_data("./data/complete_data")
+    data = read_data("./data/complete_data_old")
     train_names = [
             "hyw", "shiyun", "tangsy", "dengyl", "jiangyh", "xunkai", "negative3",
             "negative4", "negative5", "negative6"
